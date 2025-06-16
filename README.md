@@ -24,9 +24,6 @@ This project demonstrates a wheelchair control system using voice commands via a
 - Bluetooth connectivity
 - Real-time command feedback
 
-## 🖼 Demo
-![Screenshot](images/demo_photo.jpg)
-
 ## 📁 Folder Structure
 - `Arduino/`: Code for Arduino
 - `Android_App/`: Android voice control application code
