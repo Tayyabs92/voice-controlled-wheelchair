@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <!-- Connect Button -->
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect Bluetooth" />
+
+    <!-- UP -->
+    <Button
+        android:id="@+id/btnForward"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="↑"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp" />
+
+    <!-- LEFT + STOP + RIGHT -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btnLeft"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="←"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="○"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/btnRight"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="→"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- DOWN -->
+    <Button
+        android:id="@+id/btnBackward"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="↓"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp" />
+
+    <!-- Mic Button for Voice -->
+    <ImageButton
+        android:id="@+id/btnMic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_btn_speak_now"
+        android:contentDescription="Voice Control"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
